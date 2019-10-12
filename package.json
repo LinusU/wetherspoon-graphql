@@ -1,0 +1,23 @@
+{
+  "name": "wetherspoon-graphql",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "LinusU/wetherspoon-graphql",
+  "scripts": {
+    "start": "nodemon -r dotenv/config .",
+    "test": "standard"
+  },
+  "dependencies": {
+    "@keyv/redis": "^1.3.8",
+    "apollo-server": "^2.9.6",
+    "got": "^9.6.0",
+    "graphql": "^14.5.8",
+    "sort-on": "^4.1.0",
+    "strip-bom": "^4.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.3",
+    "standard": "^14.3.1"
+  }
+}
